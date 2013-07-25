@@ -1,3 +1,3 @@
-RailsBootstrap::Application.routes.draw do
+MethodCrossfit::Application.routes.draw do
   root :to => 'visitors#new'
 end
