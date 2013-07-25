@@ -24,3 +24,9 @@ gem 'resque'
 gem 'progress_bar'      # track sunspot:reindex
 gem 'jquery-rails'
 gem 'state_machine'
+group :assets do
+  gem 'coffee-rails', '~> 3.1.1'
+  gem 'uglifier', '>= 1.0.3'
+  gem 'sass-rails', '3.1.4'
+  gem 'bootstrap-sass', '~> 2.0.2'
+end
